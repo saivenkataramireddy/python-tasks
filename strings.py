@@ -10,6 +10,7 @@ for i in n:
         cons +=i
 print("Vowels",vowels)
 print("Consonents",cons)'''
+#printing count of vowels and consonents
 n=input("Enter a string")
 a="aeiouAEIOU"
 vowels=0
