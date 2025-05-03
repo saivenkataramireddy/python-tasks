@@ -1,7 +1,11 @@
-n=input("Enter a number")
+n=int(input("Enter a number"))
 i=2
-if n<=1:
-    print("Not prime")
+while i<=(n//2)+1:
+    if i ==0:
+        pass
+    if n%i==0:
+        print("Not Prime")
+        break
+    i+=1
 else:
-    while i<n:
-         
+    print("Prime")
